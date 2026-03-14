@@ -1,0 +1,118 @@
+
+<!DOCTYPE html>
+
+<html lang="en">
+
+  <head>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&family=SN+Pro:ital,wght@0,200..900;1,200..900&family=Share+Tech&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+    <link href="css/upper_border.css" rel="stylesheet">
+    <link href="css/portfolio.css" rel="stylesheet">
+    <title>Portfolio | Sean Chin</title>
+  </head>
+  <body>
+    <header>
+      <nav class="sidebar">
+        <div class="sidebar-link">
+          <a href="home.html">Home</a>
+        </div>
+        <div class="sidebar-link">
+          <a href="about.html">About</a>
+        </div>
+        <div class="sidebar-link">
+          <a href="portfolio.html">Portfolio</a>
+        </div>
+        <div class="sidebar-link">
+          <a href="contact.html">Contact</a>
+        </div>
+        <span id="switch" class="material-symbols-outlined mode-icon">
+        dark_mode
+        </span>
+      </nav>
+    </header>
+
+    <main>
+      <section class = "certs_and_courses">
+        <h2>Courses/Certifications</h2>
+        <p class = "cs50x-title">CS50X - Introduction to Computer Science</p>
+        <div class = "cs50-container">
+          <img class = "cs50p-cert-img" src="images/Screenshot 2026-03-14 012839.png">
+          <div class = "vid-wrapper">
+            <iframe
+              src="https://www.youtube.com/embed/0RZ7veUrWWQ?si=LMQ-71zD1THT3OHb" allowfullscreen>
+            </iframe>
+            <p class = "cs50-vid-desc">↑ CS50X Final Project Presentation ↑</p>
+          </div>
+        </div>
+        <hr class = "cs50-divider">
+        <p class = "cs50p-title">CS50P - Python Programming</p>
+        <div class = "cs50-container">
+          <img class = "cs50p-cert-img" src="images/CS50P cert.jpg">
+          <div class = "vid-wrapper">
+            <iframe
+              src="https://www.youtube.com/embed/-cubasussBo" allowfullscreen>
+            </iframe>
+            <p class = "cs50-vid-desc">↑ CS50P Final Project Presentation ↑</p>
+          </div>
+        </div>
+        <hr class = "cs50-divider">
+        <img class = "excel-cert-img" src="images/Screenshot 2026-03-14 124152.png">
+      </section>
+
+      <section class = "community-involvement">
+        <hr>
+        <h2>Community Involvement</h2>
+        <div class = "chwss-container">
+          <ul>
+            <li>Involved in monthly meal packing/distribution for Cheng Hong Welfare Service Society</li>
+          </ul>
+          <img class = "CHWSS-img" src="images/CHWSS-color-logo.png">
+        </div>
+      </section>
+      <section class = "jc">
+        <hr>
+        <h2>Junior College</h2>
+        <div class = "jc-imgs">
+          <img class = "yijc_cca_img" src="images/yijc_cca.jpg">
+          <img class = "yijc_cca_img" src="images/yijc_testimonial.jpg">
+          <img class = "yijc_cca_img" src="images/yijc_testimonial_pt2.jpg">
+        </div>
+      </section>
+      <section class = "National-Service">
+        <hr>
+        <h2>National Service</h2>
+        <div class = "ns-imgs">
+          <img class = "yijc_cca_img" src="images/sgt_cert.jpg">
+          <img class = "yijc_cca_img" src="images/service_transcript.jpg">
+          <img class = "yijc_cca_img" src="images/service_transcript_pt2.jpg">
+        </div>
+      </section>
+      <section class = "part-time">
+        <hr>
+        <h2>Part time Experience</h2>
+        <ul>
+          <li>Hotel Royal at Queens (Dec 2025 – Jan 2026) – Managed data entry and administrative tasks.</li>
+          <li>Lens Vision Optical City Pte Ltd (Dec 2025 – Feb 2026) – Provided customer assistance and various administrative tasks</li>
+        </ul>
+      </section>
+      <section class = "others">
+        <hr>
+        <h2>Others</h2>
+        <h5 class = "mini-projects">Mini-projects:</h5>
+        <div class = "others-container">
+          <video width="640" height="360" autoplay muted loop playsinline>
+            <source src="images/Screen Recording 2026-02-10 225744.mp4" type="video/mp4">
+            Error
+          </video>
+          <p>Built a YouTube-style homepage using HTML and CSS learned from online tutorials</p>
+        </div>
+      </section>
+    </main>
+    <script src="project.js"></script>
+  </body>
+</html>

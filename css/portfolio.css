@@ -1,0 +1,180 @@
+
+body {
+  margin-top: -80px;
+  font-family: 'Outfit', sans-serif;
+}
+
+section {
+    margin: 80px 0;
+    padding: 0 15px;
+}
+
+h2 {
+  font-weight: 600;
+}
+
+section h2 {
+    text-decoration: underline;
+}
+
+hr {
+  border: none;
+  height: 1.5px;
+  background-color: black;
+  opacity: 0.5;
+}
+
+.cs50-divider {
+  border: none;
+  height: 1.5px;
+  background-color: black;
+  opacity: 0.25;
+}
+
+.cs50x-title {
+  padding-top: 20px;
+  font-size: 17px;
+  font-weight: 550;
+}
+
+.cs50p-title {
+  padding-top: 30px;
+  font-size: 17px;
+  font-weight: 550;
+}
+
+.cs50-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px;
+  align-items: start;
+}
+
+.cs50p-cert-img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.vid-wrapper {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  width: 100%;
+}
+
+.vid-wrapper iframe {
+  width: 100%;
+  height: 450px;
+  border: 0;
+  border-radius: 8px;
+  padding-top: 4px;
+}
+
+.cs50-vid-desc {
+  margin: 0;
+  text-align: center;
+  font-weight: bold;
+}
+
+.chwss-container {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.CHWSS-img {
+    width: 80px;
+    height: auto;
+}
+
+.jc-imgs,
+.ns-imgs {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 20px;
+}
+
+.jc-imgs img,
+.ns-imgs img {
+  width: 100%;
+  height: auto;
+}
+
+ul {
+  list-style-type: disc;
+  padding-left: 20px;
+}
+
+.mini-projects {
+  padding-top: 20px;
+}
+
+.others-container {
+  padding-top: 18px;
+}
+
+.others video {
+  width: 100%;
+  max-width: 640px;
+  height: auto;
+}
+
+:root {
+  --bg-color: white;
+  --text-color: black;
+  --nav-color: black;
+  --hr-color: black;
+  --cs50-divider-color: black;
+}
+
+.dark-mode {
+  --bg-color: black;
+  --text-color: white;
+  --nav-color: white;
+  --sidebar-bg: #121212;
+  --hr-color: white;
+  --cs50-divider-color: white;
+}
+
+body {
+  background-color: var(--bg-color);
+  color: var(--text-color);
+}
+
+.cs50-divider {
+  background-color: var(--cs50-divider-color);
+}
+
+.sidebar {
+  background-color: var(--sidebar-bg);
+}
+
+.sidebar a {
+  color: var(--nav-color);
+}
+
+hr {
+  background-color: var(--hr-color)
+}
+
+.mode-icon {
+  font-size: 25px;
+  cursor: pointer;
+  user-select: none;
+  transition: transform 0.2s ease;
+  position: fixed;
+  z-index: 1000;
+  right: 35px;
+}
+
+.mode-icon:hover {
+  transform: scale(1.1);
+}
+
+.excel-cert-img {
+  width: 100%;
+  max-width: 640px;
+  height: auto;
+  margin-top: 30px;
+}

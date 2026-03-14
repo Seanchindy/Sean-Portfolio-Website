@@ -1,0 +1,47 @@
+
+ul {
+  list-style-type: disc;
+  padding-left: 20px;
+}
+
+:root {
+  --bg-color: white;
+  --text-color: black;
+  --nav-color: black;
+}
+
+.dark-mode {
+  --bg-color: black;
+  --text-color: white;
+  --nav-color: white;
+  --sidebar-bg: #121212;
+}
+
+body {
+  background-color: var(--bg-color);
+  color: var(--text-color);
+  font-family: 'Outfit', sans-serif;
+
+}
+
+.sidebar {
+  background-color: var(--sidebar-bg);
+}
+
+.sidebar a {
+  color: var(--nav-color);
+}
+
+.mode-icon {
+  font-size: 25px;
+  cursor: pointer;
+  user-select: none;
+  transition: transform 0.2s ease;
+  position: fixed;
+  z-index: 1000;
+  right: 35px;
+}
+
+.mode-icon:hover {
+  transform: scale(1.1);
+}
